@@ -23,4 +23,4 @@ I used the grep() function to search for those variables and put the names into 
 I prefer underscores to points in variable names and since the make.names() function created a lot of variable names with two or three consecutive points, I used a series of gsub() to rename the variables into something that I consider to be much more clean looking.
 
 ### Comments
-For the final data set I just used the aggregate() function to get the mean by activity and subject. I 
+For the final data set I just used the aggregate() function to get the mean by activity and subject.
